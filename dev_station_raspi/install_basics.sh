@@ -13,3 +13,6 @@ apt install openocd -y
 apt install mc -y
 apt install xoscope -y
 
+apt install minicom -y
+apt install telnet -y
+
