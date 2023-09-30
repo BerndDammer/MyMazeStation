@@ -1,6 +1,8 @@
 bin
 
 *.jar
+!dev_station_raspi/watchmen.jar
+
 *.exe
 *.zip
 *.gz
