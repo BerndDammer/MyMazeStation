@@ -1,0 +1,15 @@
+[Unit]
+Description=http server showing system stats
+Wants=multi-user.target
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/aeningning
+Type=simple
+ExecStart=java -jar watchmen.jar
+Restart=on-abort
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,45 @@
+
+Configuring VNC Connect Using Parameters
+Avatar
+Tegan
+Updated April 28, 2023 13:36
+VNC Server, VNC Viewer and supporting programs are controlled by parameters, set to suitable default values for most users out-of-the-box.
+
+You can configure a program by specifying new values for parameters either:
+
+Before the program starts.
+On the command line at start-up.
+While the program is running, and connections are in progress.
+For more information on VNC Server modes, see Understanding VNC Server Modes.
+
+Configuring programs before they start
+You can specify parameters yourself:
+
+Under Windows, in the Registry.
+Under Linux or Mac, in VNC configuration files.
+Note that if you have an Enterprise subscription, it might be easier to use policy to deploy parameters remotely. This has the additional benefit of locking down programs so they cannot be changed by users.
+
+Populating the Windows Registry with parameters
+Under Windows, if you have permission to edit the Windows Registry, you can specify parameters as values for particular Registry keys.
+
+The following table lists the Registry keys to create or edit for each program, and the order in which parameters are applied. Parameters specified using policy override parameters specified at the command line, which in turn override parameters specified manually in the Registry.
+
+Program	Order parameters are applied
+(lowest takes precedence)	Notes
+VNC Server
+(Service Mode)	
+HKLM\Software\RealVNC\vncserver
+HKLM\Software\Policies\RealVNC\vncserver
+The Options dialog for a program updates a particular Registry key; see Using the Options dialog below.
+
+Note it is not possible to specify parameters at the command line for VNC Server in Service Mode.
+VNC Server
+(User Mode)	
+HKCU\Software\RealVNC\vncserver
+<parameters at the command line>
+HKCU\Software\Policies\RealVNC\vncserver
+VNC Viewer	
+HKCU\Software\RealVNC\vncviewer
+<parameters at the command line>
+HKCU\Software\Policies\RealVNC\vncviewer
+For example, to specify the Log parameter for VNC Server in Service Mode:

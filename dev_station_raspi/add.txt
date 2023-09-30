@@ -1,0 +1,10 @@
+sudo apt install telnet
+telnet localhost 4444
+
+apt install minicom
+minicom -D /dev/ttyACM0
+minicom -D /dev/ttyACM1
+
+Windows features (search after click on start button)
+Telnet Client aktivieren
+
