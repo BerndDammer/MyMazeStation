@@ -1,5 +1,5 @@
 git add .
-git commit -m "telnet minicom"
+git commit -m "win install"
 git push
 git push --tags
 read
