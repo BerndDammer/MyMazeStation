@@ -16,3 +16,6 @@ apt install xoscope -y
 apt install minicom -y
 apt install telnet -y
 
+
+
+
