@@ -1,5 +1,5 @@
 git add .
-git commit -m "power save"
+git commit -m "manual corrections"
 git push
 git push --tags
 read
