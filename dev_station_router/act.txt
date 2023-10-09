@@ -1,0 +1,2 @@
+Allowed IP
+DNS
