@@ -1,5 +1,5 @@
 git add .
-git commit -m "add act"
+git commit -m "vmpk"
 git push
 git push --tags
 read

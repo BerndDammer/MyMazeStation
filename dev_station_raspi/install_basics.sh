@@ -18,3 +18,6 @@ apt install telnet -y
 
 apt install ser2net
 
+# virtual midi keyboard
+apt install vmpk
+
