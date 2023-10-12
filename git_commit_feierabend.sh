@@ -1,5 +1,5 @@
 git add .
-git commit -m "vmpk"
+git commit -m "tyra debug"
 git push
 git push --tags
 read
