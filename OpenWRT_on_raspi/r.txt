@@ -1,0 +1,34 @@
+Only for SD Card ; USB Boot doesnt work 
+sda1 mmkblk1  names !!!
+
+WRONG INFO 
+------------------
+DHCP is activate on Ethernet Plug !!!!!!!!!!!!!!!!!!!!!!!!
+default IP 192.168.1.1
+
+
+
+
+
+How to connect via Ethernet
+
+
+
+It might be tricky to connect via Ethernet for the first time. By default the DHCP client is disabled and the IP address is configured as static 192.168.1.1
+After having flashed OpenWrt like described above, you can reach the OpenWrt via Ethernet by using the IP address 192.168.1.1
+It is highly likely that the gateway (router) to which the Raspberry Pi is connected has the same IP of 192.168.1.1
+In that case if possible change the gateway IP to something else, then try accessing using the default static IP address of 192.168.1.1 using SSH or HTTP. Once you have access to the OpenWrt you can set password and enable DHCP.
+
+If it is not possible to resolve the IP conflict read further...
+
+In order to set it up as a DHCP client, attach a serial console and do the following:
+
+uci set network.lan.proto=dhcp
+uci commit
+/etc/init.d/network restart
+Alternatively, in order to set it up with a fixed IP different from the default 192.168.1.1 do the following:
+
+uci set network.lan.ipaddr=192.168.1.199
+uci commit
+/etc/init.d/network restart
+Now you should be able to log in via telnet, SSH, or HTTP to set your password.
