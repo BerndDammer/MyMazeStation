@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Tyra
+GenericName=Tyra
+Icon=computer
+Exec=java -jar tyra.jar
+Terminal=false
+Type=Application
+Categories=MyMazeStation;Education;Programming;Other
+StartupNotify=true
+Path=~

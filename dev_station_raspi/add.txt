@@ -8,3 +8,9 @@ minicom -D /dev/ttyACM1
 Windows features (search after click on start button)
 Telnet Client aktivieren
 
+--------------------
+Location of .desktop files
+
+/usr/share/applications
+/usr/local/share/applications
+~/.local/share/applications (note that this folder may not exist on a brand new LXDE installation, but you can create it manually)
