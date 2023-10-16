@@ -16,6 +16,7 @@ dev_station_router/**/*.psk
 DevStationClientPack/images
 DevStationClientPack/synchole
 DevStationClientPack/x2goclient
+DevStationClientPack/vnc
 
 
 
