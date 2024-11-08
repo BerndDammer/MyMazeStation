@@ -1,1 +1,3 @@
-scp auto_wg_42_username-id.sh root@192.168.43.1:~
+scp auto_wg_42_username-id.sh root@naevis.kwangya:~
+pause
+

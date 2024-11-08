@@ -1,2 +1,2 @@
 SET USER=aeningning
-SET TARGET=aewinter.flat
+SET TARGET=aewinter.kwangya

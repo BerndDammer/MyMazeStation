@@ -1,2 +1,2 @@
-scp -r root@192.168.43.1:/etc/wireguard/** readback43/
+scp -r root@naevis.kwangya:/etc/wireguard/** readback43/
 pause ********* XXXXXXXXXXXX **************

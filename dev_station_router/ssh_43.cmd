@@ -1,1 +1,3 @@
-ssh root@192.168.43.1
+ssh root@naevis.kwangya
+pause
+
