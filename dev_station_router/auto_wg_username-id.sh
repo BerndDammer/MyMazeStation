@@ -7,18 +7,18 @@ echo "======================================"
 # Define Variables
 echo -n "Defining variables... "
 export LAN="lan"
-export interface="192.168.37"
-export DDNS="lsp67p8s4wfjilu3.myfritz.net"
+export interface="192.168.42"
+export DDNS="mymazestation.myfritz.link"
 export peer_ID="1" # The ID number to start from
 export peer_IP="51" # The IP address to start from
-export WG_${LAN}_server_port="36996"
+export WG_${LAN}_server_port="42996"
 export WG_${LAN}_server_IP="${interface}.1"
 export WG_${LAN}_server_firewall_zone="${LAN}"
 export quantity="4" # Change the number '4' to any number of peers you would like to create
-export user_1="jisoo"
-export user_2="jennie"
-export user_3="rose"
-export user_4="lisa"
+export user_1="karina"
+export user_2="giselle"
+export user_3="winter"
+export user_4="ningning"
 echo "Done"
  
 # Create directories
