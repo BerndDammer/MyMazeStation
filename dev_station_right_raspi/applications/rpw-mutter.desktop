@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Mutter
+Exec=mutter
+NoDisplay=true
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Phase=DisplayServer
+X-GNOME-Autostart-Notify=true
+X-GNOME-WMName=Mutter
+X-GNOME-WMSettingsModule=metacity

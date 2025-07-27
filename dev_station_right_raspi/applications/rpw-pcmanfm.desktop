@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PCManFM
+Exec=env GDK_BACKEND=x11 pcmanfm --desktop --profile LXDE-pi
+NoDisplay=true
+X-GNOME-Provides=filemanager

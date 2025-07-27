@@ -1,0 +1,30 @@
+[Desktop Entry]
+Type=Application
+Name=SD Card Copier
+Name[de]=SD Card Copier
+Name[en_GB]=SD Card Copier
+Name[hy]=SD կլոնավորում
+Name[it]=SD Card Copier
+Name[ko]=SD 카드 복사기
+Name[nb]=SD Card Copier
+Name[sk]=Kopírovanie SD kariet
+GenericName=SD Card Copier
+GenericName[de]=SD Card Copier
+GenericName[en_GB]=SD Card Copier
+GenericName[hy]=SD կլոնավորում
+GenericName[it]=SD Card Copier
+GenericName[ko]=SD 카드 복사기
+GenericName[nb]=SD Card Copier
+GenericName[sk]=Kopírovanie SD kariet
+Comment=Make a copy of the Raspbian SD card
+Comment[de]=Erstellen Sie eine Kopie der Raspbian SD-Karte
+Comment[en_GB]=Copy SD cards and USB devices
+Comment[hy]=Պատճենել SD կրիչներ և USB սարքեր
+Comment[it]=Crea una copia della scheda SD Raspbian
+Comment[ko]=라즈비안(Raspbian) SD 카드의 복사본 만들기
+Comment[nb]=Lag en kopi av Raspbian-SD-kortet
+Comment[sk]=Kopírovať SD karty a USB zariadenia
+Icon=media-removable
+Exec=env SUDO_ASKPASS=/usr/lib/piclone/pwdpic.sh sudo -AE dbus-launch piclone
+StartupNotify=true
+Categories=Utility;

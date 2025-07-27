@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=VNC Viewer URL Handler
+Exec=vncviewer -uri %u
+Type=Application
+MimeType=x-scheme-handler/com.realvnc.vncviewer.connect
+NoDisplay=true
