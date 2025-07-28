@@ -1,0 +1,41 @@
+
+
+Kontact
+
+Black box testing projects
+Long lasting bullshit projects with 
+- idiot Methods
+- bloody managers
+ -- CAPL
+ -- Erlang
+- fucking requirement manangement
+- go into network drive to compile (one license too less)
+- AKKA - > 
+- indirect eployed ll-workrer quit before hardware exists
+- idiot manager hat werkstatt abgeschafft
+
+Goals: Have a black box testing projects from scratch
+
+(+)
+early start of programming before project hardware exists
+everything is remote
+home office all developers possible
+
+checking of situations which is hard to force or simulate
+
+less education problems 
+use standard software
+
+force to plan software development
+(-)
+force to plan software development
+lot of more programming
+
+(x)
+hardware set generation/building at external company
+possible monitoring of management quality
+
+set building requires software planning
+e.g. spi interface to monitoring battery temperature
+definig this interface requires the information of battery matrix and which battery cell at what position has wich temperature channel
+
