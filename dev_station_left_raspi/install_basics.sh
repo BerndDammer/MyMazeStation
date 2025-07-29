@@ -1,8 +1,10 @@
-mkdir .ssh/authorisized_keys/
+mkdir .ssh/
+mv aegiselle_sshkey.pub .ssh/authorized_keys
+chown aegiselle:aegiselle ~/.ssh/authorized_keys
+chown aegiselle:aegiselle ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
 chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorisized_keys
-# chmod 600 ~/.ssh/authorisized_keys/*
-apt full-upgrade -y
+apt update -y
+apt upgrade -y
 apt install mc -y
-
 

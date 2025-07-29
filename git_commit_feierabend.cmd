@@ -1,6 +1,6 @@
 call SetEnv.bat
 git add .
-git commit -m "first success ssh keys"
+git commit -m "left ssh install"
 git push
 git push --tags
 read
