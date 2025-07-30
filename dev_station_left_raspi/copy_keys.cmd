@@ -1,2 +1,2 @@
-ssh -i aegiselle_sshkey aegiselle@aekarina.kwangya 
+xcopy aegiselle_sshkey*.* ..\DevStationClientPack
 pause -----------------------pc-----------------------
