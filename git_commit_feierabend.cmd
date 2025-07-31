@@ -1,6 +1,6 @@
 call SetEnv.bat
 git add .
-git commit -m "delete saved trash"
+git commit -m "remove dev station user"
 git push
 git push --tags
 read
