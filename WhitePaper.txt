@@ -1,3 +1,10 @@
+Testing projects
+
+Black box testing 
+
+
+bad management
+indirect employment
 
 
 Kontact
@@ -32,7 +39,14 @@ Long lasting bullshit projects with
 - indirect eployed ll-workrer quit before hardware exists
 - idiot manager hat werkstatt abgeschafft
 
+
+
 Goals: Have a black box testing projects from scratch
+Make testing project a useful development element
+
+
+
+
 
 (+)
 early start of programming before project hardware exists

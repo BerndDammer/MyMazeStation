@@ -1,3 +1,3 @@
 call SetTarget.bat
-ssh %USER%@%TARGET% killall java
+ssh -i aeningning_sshkey %USER%@%TARGET% killall java
 pause -----------------------pc-----------------------

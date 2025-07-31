@@ -1,3 +1,3 @@
 call SetTarget.cmd
-ssh  %USER%@%TARGET%
+ssh -i aeningning_sshkey %USER%@%TARGET%
 pause -----------------------pc-----------------------

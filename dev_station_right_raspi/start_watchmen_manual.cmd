@@ -1,3 +1,3 @@
 call SetTarget.bat
-ssh %USER%@%TARGET% java -jar watchmen.jar
+ssh -i aeningning_sshkey %USER%@%TARGET% java -jar watchmen.jar
 pause -----------------------pc-----------------------
