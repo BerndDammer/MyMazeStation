@@ -1,3 +1,3 @@
-rem ssh -i aegiselle_sshkey -l aegiselle aekarina.kwangya
-ssh aegiselle@aekarina.kwangya
+ssh -i aegiselle_sshkey aegiselle@aekarina.kwangya
+rem ssh aegiselle@aekarina.kwangya
 pause -----------------------pc-----------------------
