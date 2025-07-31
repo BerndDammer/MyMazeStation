@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=LXPanel
-Exec=env GDK_BACKEND=x11 XDG_MENU_PREFIX=lxde-pi- XDG_DATA_DIRS=/usr/share/raspi-ui-overrides:/usr/share:var/lib/menu-xdg lxpanel -p LXDE-pi
-NoDisplay=true
-X-GNOME-Provides=panel

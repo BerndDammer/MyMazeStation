@@ -5,7 +5,7 @@ bin
 *.jar
 !dev_station_raspi/watchmen.jar
 !dev_station_raspi/tyra.jar
-dev_station_raspi/applications
+dev_station_right_raspi/applications
 
 *.exe
 *.zip

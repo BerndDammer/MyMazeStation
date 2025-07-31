@@ -2,6 +2,24 @@
 
 Kontact
 
+thales / 
+erlang wegen freelancer der geil auf rekursionen ist
+  nur ein probeaufbau
+  testbarkeit nur mit extrem langem systemstart
+
+vincorion 
+  keine hardware 
+  leute gefeuert vor dev start (miete von übergangswohniung)
+  nur ein probeaufbau
+  ohne zwischentest auf 2 kw motor mit riesen netzteil und kurzschluss zerstörungsgefahr
+
+akka / philotech 
+   capl wegen ereignissteuerung 
+   in netzlaufwerk einwählen zum kompilieren
+   total krankes requirement tool
+   alle requirement unverständlich
+
+
 Black box testing projects
 Long lasting bullshit projects with 
 - idiot Methods
@@ -21,11 +39,12 @@ early start of programming before project hardware exists
 everything is remote
 home office all developers possible
 
+stress between sw-workers who got hardware access can be avoided
+managers cant destroy developer tools
+
 checking of situations which is hard to force or simulate
 
-less education problems 
-use standard software
-
+less education problems because of use of standard software
 force to plan software development
 (-)
 force to plan software development
