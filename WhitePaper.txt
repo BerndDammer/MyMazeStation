@@ -60,6 +60,8 @@ checking of situations which is hard to force or simulate
 
 stess between developers about hardware/tool access
 
+black box testing starts early and not as a past and xPensive
+
 less education problems because of use of standard software
 force to plan software development
 (-)

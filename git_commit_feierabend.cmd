@@ -1,6 +1,6 @@
 call SetEnv.bat
 git add .
-git commit -m "ser2net"
+git commit -m "cleanup"
 git push
 git push --tags
 read
