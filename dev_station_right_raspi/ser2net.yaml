@@ -10,10 +10,9 @@
 # If you find your configuration more useful than this very simple
 # one, please submit it as a bugreport
 
-define: &banner \r\nser2net port \p device \d [\B] (Debian GNU/Linux)\r\n\r\n
 
 connection: &conACM0
-    accepter: tcp,2000
+    accepter: tcp,2001
     enable: on
     options:
       kickolduser: true
@@ -22,7 +21,7 @@ connection: &conACM0
 
 
 connection: &conACM1
-    accepter: tcp,2001
+    accepter: tcp,2002
     enable: on
     options:
       kickolduser: true

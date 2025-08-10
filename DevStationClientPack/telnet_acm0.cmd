@@ -1,3 +1,3 @@
 call SetTarget.cmd
-telnet %TARGET% 2000
+telnet -t vt100 %TARGET% 2001
 pause -----------------------pc-----------------------
