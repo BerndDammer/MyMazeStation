@@ -4,7 +4,7 @@ Wants=multi-user.target
 After=multi-user.target
 
 [Service]
-WorkingDirectory=/home/aeningning
+WorkingDirectory=/home/aegiselle
 Type=simple
 ExecStart=java -jar watchmen.jar
 Restart=on-abort
