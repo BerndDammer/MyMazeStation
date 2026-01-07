@@ -10,6 +10,8 @@
 # If you find your configuration more useful than this very simple
 # one, please submit it as a bugreport
 
+admin: &admin
+    accepter: tcp,2000
 
 connection: &conACM0
     accepter: tcp,2001
